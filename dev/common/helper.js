@@ -21,7 +21,7 @@ module.exports = {
         resultPath += (resultPath.length > 0 && pathItem ? '/' : '') + pathItem;
       }
     }
-    return resultPath;
+    return resultPath + "/";
   },
 
   replaceUrlParamsWithValues: (url, paramValues) => {
